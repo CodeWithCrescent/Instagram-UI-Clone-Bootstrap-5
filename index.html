@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="shortcut icon" href="images/icons/instagram.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body id="body-pd">
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <nav class="col-md-3 col-lg-2 d-md-block sidebar collapse border-end">
+                <div class="fixed-top p-3">
+                    <!-- App Logo -->
+                    <a href="/"
+                        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none link-dark">
+                        <i class="fa fa-instagram me-2 fa-2x" aria-hidden="true"></i> <span
+                            class="fs-4 fw-bold">Instagram</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-auto mt-3">
+                        <li class="nav-item">
+                            <a href="http://" class="nav-link link-dark fw-bold" aria-current="page">
+                                <i class="fa fa-home fa-lg me-2" aria-hidden="true"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="http://" class="nav-link link-dark">
+                                <i class="fa fa-search fa-lg me-2" aria-hidden="true"></i>
+                                Search
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="http://" class="nav-link link-dark">
+                                <i class="fa fa-compass fa-lg me-2" aria-hidden="true"></i>
+                                Explore
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="http://" class="nav-link link-dark">
+                                <i class="fa fa-film fa-lg me-2" aria-hidden="true"></i>
+                                Reels
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="http://" class="nav-link link-dark">
+                                <i class="fa fa-comment-o fa-lg me-2" aria-hidden="true"></i>
+                                Messages
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="http://" class="nav-link link-dark">
+                                <i class="fa fa-heart-o fa-lg me-2" aria-hidden="true"></i>
+                                Notifications
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="http://" class="nav-link link-dark">
+                                <i class="fa fa-plus-square-o fa-lg me-2" aria-hidden="true"></i>
+                                Create
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="http://" class="nav-link link-dark">
+                                <i class="fa fa-user-o fa-lg me-2" aria-hidden="true"></i>
+                                Profile
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="dropdown">
+                        <a href="http://"
+                            class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+                            id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-user rounded-circle me-2"></i>
+                            <strong>Crescent Gen</strong>
+                        </a>
+                        <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                            <li><a href="http://" class="dropdown-item">Logout</a></li>
+                            <li><a href="http://" class="dropdown-item">Account</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <main class="col-md-6 ms-sm-auto col-lg-6 px-md-4" style="width: 50rem;">
+                <div class="d-flex justify-content-center flex-wrap">
+                    <div class="row pt-3 pb-2 mb-3">
+                        <div class="col text-center text-truncate">
+                            <svg class="bd-placeholder-img rounded-circle" width="70" height="70"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 70x70"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>diamond_platnumz</title>
+                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                    dy=".3em">140x140</text>
+                            </svg>
+                            <h6>Diamond Platnumz</h6>
+                        </div>
+                        <div class="col text-center text-truncate">
+                            <svg class="bd-placeholder-img rounded-circle" width="70" height="70"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 70x70"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>mr.bluebyser</title>
+                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                    dy=".3em">140x140</text>
+                            </svg>
+                            <h6>mr_bluebyser</h6>
+                        </div>
+                        <div class="col text-center text-truncate">
+                            <svg class="bd-placeholder-img rounded-circle" width="70" height="70"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 70x70"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>abby_chams</title>
+                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                    dy=".3em">140x140</text>
+                            </svg>
+                            <h6>abby_chams</h6>
+                        </div>
+                        <div class="col text-center text-truncate">
+                            <svg class="bd-placeholder-img rounded-circle" width="70" height="70"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 70x70"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>jay_melody</title>
+                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                    dy=".3em">140x140</text>
+                            </svg>
+                            <h6>jay_melody</h6>
+                        </div>
+                        <div class="col text-center text-truncate">
+                            <svg class="bd-placeholder-img rounded-circle" width="70" height="70"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 70x70"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>JUX</title>
+                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                    dy=".3em">140x140</text>
+                            </svg>
+                            <h6>ally_happy</h6>
+                        </div>
+                        <div class="col text-center text-truncate">
+                            <svg class="bd-placeholder-img rounded-circle" width="70" height="70"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 70x70"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>JUX</title>
+                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                    dy=".3em">140x140</text>
+                            </svg>
+                            <h6>nunu_qms</h6>
+                        </div>
+                        <div class="col text-center text-truncate">
+                            <svg class="bd-placeholder-img rounded-circle" width="70" height="70"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 70x70"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>JUX</title>
+                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                    dy=".3em">140x140</text>
+                            </svg>
+                            <h6>wasafi_tv</h6>
+                        </div>
+                        <div class="col text-center text-truncate">
+                            <svg class="bd-placeholder-img rounded-circle" width="70" height="70"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 70x70"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>JUX</title>
+                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                    dy=".3em">140x140</text>
+                            </svg>
+                            <h6>JUX</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center">
+                                <div class="card border-0">
+                                    <div class="card-header border-0 bg-body">
+                                        <div class="d-flex justify-content-between pt-3">
+                                            <span class="d-flex d-inline-block">
+                                                <svg class="bd-placeholder-img rounded-circle me-2" width="40"
+                                                    height="40" xmlns="http://www.w3.org/2000/svg" role="img"
+                                                    aria-label="Placeholder: 50x50" preserveAspectRatio="xMidYMid slice"
+                                                    focusable="false">
+                                                    <title>tz_passporterz</title>
+                                                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%"
+                                                        fill="#777" dy=".3em">140x140</text>
+                                                </svg>
+                                                <div>
+                                                    <h6>tz_passporterz <span class="text-black-50">• now</span>
+                                                        <p class="text-black-50 fw-normal">Sinza, Dar es Salaam</p>
+                                                    </h6>
+                                                </div>
+
+                                            </span>
+                                            <span>
+                                                <a href="http://" class="nav-link text-dark"><i
+                                                        class="fa fa-ellipsis-h"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <figure class="figure">
+                                            <img src="images/post-images/passport.jpg" alt=""
+                                                class="figure-img img-fluid w-100 h-100 object-fit-cover">
+                                            <figcaption class="row">
+                                                <div class="col-12 d-flex justify-content-between fa-2x fw-bold mb-2">
+                                                    <span>
+                                                        <a href="#" class="text-dark"><i
+                                                                class="fa fa-heart-o me-2"></i></a>
+                                                        <a href="#" class="text-dark"><i
+                                                                class="fa fa-comment-o me-2"></i></a>
+                                                        <a href="#" class="text-dark"><i
+                                                                class="fa fa-paper-plane-o"></i></a>
+                                                    </span>
+
+                                                    <a href="#" class="text-dark"><i class="fa fa-bookmark-o"></i></a>
+                                                </div>
+                                                <div class="col-12">
+                                                    <p>Liked by <strong>jayz, j.kikwete and others</strong></p>
+                                                </div>
+                                                <div class="col-12">
+                                                    <p><strong>tz_passporterz </strong> Climate change is
+                                                        the
+                                                        greatest threat to
+                                                        humanity, perhaps ever. Global temperatures are rising at an
+                                                        unprecedented
+                                                        rate, causing drought and forest fires and impacting human
+                                                        health.
+                                                    </p>
+                                                </div>
+                                                <div class="col-12"><a href="http://"
+                                                        class="text-decoration-none text-black-50">View all 26
+                                                        comments</a>
+                                                </div>
+                                                <div class="col-12 mt-2">
+                                                    <input type="text" class="form-control border-0 shadow-none"
+                                                        name="comment" id="comment" placeholder="Add a comment...">
+                                                </div>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-3">
+                        <div class="col-12">
+                            <div class="card border-0">
+                                <div class="card-header border-0 bg-body">
+                                    <div class="d-flex justify-content-between pt-3">
+                                        <span class="d-flex d-inline-block">
+                                            <svg class="bd-placeholder-img rounded-circle me-2" width="40" height="40"
+                                                xmlns="http://www.w3.org/2000/svg" role="img"
+                                                aria-label="Placeholder: 50x50" preserveAspectRatio="xMidYMid slice"
+                                                focusable="false">
+                                                <title>mustgallery</title>
+                                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%"
+                                                    fill="#777" dy=".3em">140x140</text>
+                                            </svg>
+                                            <div>
+                                                <h6>mustgallery <img src="images/icons/verified.png" alt="Verified"
+                                                        width="16px"> <span class="text-black-50">• 36m</span>
+                                                    <p class="text-black-50 fw-normal">Mbeya University of Science and
+                                                        Technology</p>
+                                                </h6>
+                                            </div>
+
+                                        </span>
+                                        <span>
+                                            <a href="http://" class="nav-link text-dark"><i
+                                                    class="fa fa-ellipsis-h"></i></a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <figure class="figure">
+                                        <img src="images/post-images/drought.jpg" alt="" class="figure-img img-fluid">
+                                        <figcaption class="row">
+                                            <div class="col-12 d-flex justify-content-between fa-2x fw-bold mb-2">
+                                                <span>
+                                                    <a href="#" class="text-dark"><i class="fa fa-heart-o me-2"></i></a>
+                                                    <a href="#" class="text-dark"><i
+                                                            class="fa fa-comment-o me-2"></i></a>
+                                                    <a href="#" class="text-dark"><i
+                                                            class="fa fa-paper-plane-o"></i></a>
+                                                </span>
+
+                                                <a href="#" class="text-dark"><i class="fa fa-bookmark-o"></i></a>
+                                            </div>
+                                            <div class="col-12">
+                                                <p>Liked by <strong>jayz, j.kikwete and others</strong></p>
+                                            </div>
+                                            <div class="col-12">
+                                                <p><strong>mustgallery <img src="images/icons/verified.png"
+                                                            alt="Verified" width="16px"></strong>
+                                                    Climate change is the
+                                                    greatest threat to
+                                                    humanity, perhaps ever. Global temperatures are rising at an
+                                                    unprecedented
+                                                    rate, causing drought and forest fires and impacting human
+                                                    health.
+                                                </p>
+                                            </div>
+                                            <div class="col-12"><a href="http://"
+                                                    class="text-decoration-none text-black-50">View all 26
+                                                    comments</a>
+                                            </div>
+                                            <div class="col-12 mt-2">
+                                                <input type="text" class="form-control border-0 shadow-none"
+                                                    name="comment" id="comment" placeholder="Add a comment...">
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-3">
+                        <div class="col-12">
+                            <div class="card border-0">
+                                <div class="card-header border-0 bg-body">
+                                    <div class="d-flex justify-content-between pt-3">
+                                        <span class="d-flex d-inline-block">
+                                            <svg class="bd-placeholder-img rounded-circle me-2" width="40" height="40"
+                                                xmlns="http://www.w3.org/2000/svg" role="img"
+                                                aria-label="Placeholder: 50x50" preserveAspectRatio="xMidYMid slice"
+                                                focusable="false">
+                                                <title>simba sc</title>
+                                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%"
+                                                    fill="#777" dy=".3em">140x140</text>
+                                            </svg>
+                                            <div>
+                                                <h6>simbasportsclub <img src="images/icons/verified.png" alt="Verified"
+                                                        width="16px"> <span class="text-black-50">• 4h</span>
+                                                    <p class="text-black-50 fw-normal">Benjamin W. Mkapa Stadium</p>
+                                                </h6>
+                                            </div>
+
+                                        </span>
+                                        <span>
+                                            <a href="http://" class="nav-link text-dark"><i
+                                                    class="fa fa-ellipsis-h"></i></a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <figure class="figure">
+                                        <video autoplay muted class="figure-img img-fluid">
+                                            <source src="images/videos/simba.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                        <figcaption class="row">
+                                            <div class="col-12 d-flex justify-content-between fa-2x fw-bold mb-2">
+                                                <span>
+                                                    <a href="#" class="text-dark"><i class="fa fa-heart-o me-2"></i></a>
+                                                    <a href="#" class="text-dark"><i
+                                                            class="fa fa-comment-o me-2"></i></a>
+                                                    <a href="#" class="text-dark"><i
+                                                            class="fa fa-paper-plane-o"></i></a>
+                                                </span>
+
+                                                <a href="#" class="text-dark"><i class="fa fa-bookmark-o"></i></a>
+                                            </div>
+                                            <div class="col-12">
+                                                <p>Liked by <strong>jayz, j.kikwete and others</strong></p>
+                                            </div>
+                                            <div class="col-12">
+                                                <p><strong>simbasportsclub <img src="images/icons/verified.png"
+                                                            alt="Verified" width="16px"></strong>
+                                                    Climate change is the
+                                                    greatest threat to
+                                                    humanity, perhaps ever. Global temperatures are rising at an
+                                                    unprecedented
+                                                    rate, causing drought and forest fires and impacting human
+                                                    health.
+                                                </p>
+                                            </div>
+                                            <div class="col-12"><a href="http://"
+                                                    class="text-decoration-none text-black-50">View all 26
+                                                    comments</a>
+                                            </div>
+                                            <div class="col-12 mt-2">
+                                                <input type="text" class="form-control border-0 shadow-none"
+                                                    name="comment" id="comment" placeholder="Add a comment...">
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-3">
+                        <div class="col-12">
+                            <div class="card border-0">
+                                <div class="card-header border-0 bg-body">
+                                    <div class="d-flex justify-content-between pt-3">
+                                        <span class="d-flex d-inline-block">
+                                            <svg class="bd-placeholder-img rounded-circle me-2" width="40" height="40"
+                                                xmlns="http://www.w3.org/2000/svg" role="img"
+                                                aria-label="Placeholder: 50x50" preserveAspectRatio="xMidYMid slice"
+                                                focusable="false">
+                                                <title>Geniius GFX</title>
+                                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%"
+                                                    fill="#777" dy=".3em">140x140</text>
+                                            </svg>
+                                            <div>
+                                                <h6>geniius_gfx <img src="images/icons/verified.png" alt="Verified"
+                                                        width="16px"> <span class="text-black-50">• 2d</span>
+                                                    <p class="text-black-50 fw-normal">Mbeya</p>
+                                                </h6>
+                                            </div>
+
+                                        </span>
+                                        <span>
+                                            <a href="http://" class="nav-link text-dark"><i
+                                                    class="fa fa-ellipsis-h"></i></a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <figure class="figure">
+                                        <img src="images/post-images/id.jpg" alt="" class="figure-img img-fluid">
+                                        <figcaption class="row">
+                                            <div class="col-12 d-flex justify-content-between fa-2x fw-bold mb-2">
+                                                <span>
+                                                    <a href="#" class="text-dark"><i class="fa fa-heart-o me-2"></i></a>
+                                                    <a href="#" class="text-dark"><i
+                                                            class="fa fa-comment-o me-2"></i></a>
+                                                    <a href="#" class="text-dark"><i
+                                                            class="fa fa-paper-plane-o"></i></a>
+                                                </span>
+
+                                                <a href="#" class="text-dark"><i class="fa fa-bookmark-o"></i></a>
+                                            </div>
+                                            <div class="col-12">
+                                                <p>Liked by <strong>jayz, j.kikwete and others</strong></p>
+                                            </div>
+                                            <div class="col-12">
+                                                <p><strong>geniius_gfx <img src="images/icons/verified.png"
+                                                            alt="Verified" width="16px"></strong>
+                                                    Climate change is the
+                                                    greatest threat to
+                                                    humanity, perhaps ever. Global temperatures are rising at an
+                                                    unprecedented
+                                                    rate, causing drought and forest fires and impacting human
+                                                    health.
+                                                </p>
+                                            </div>
+                                            <div class="col-12"><a href="http://"
+                                                    class="text-decoration-none text-black-50">View all 26
+                                                    comments</a>
+                                            </div>
+                                            <div class="col-12 mt-2">
+                                                <input type="text" class="form-control border-0 shadow-none"
+                                                    name="comment" id="comment" placeholder="Add a comment...">
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-3">
+                        <div class="col-12">
+                            <div class="card border-0">
+                                <div class="card-header border-0 bg-body">
+                                    <div class="d-flex justify-content-between pt-3">
+                                        <span class="d-flex d-inline-block">
+                                            <svg class="bd-placeholder-img rounded-circle me-2" width="40" height="40"
+                                                xmlns="http://www.w3.org/2000/svg" role="img"
+                                                aria-label="Placeholder: 50x50" preserveAspectRatio="xMidYMid slice"
+                                                focusable="false">
+                                                <title>next_js</title>
+                                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%"
+                                                    fill="#777" dy=".3em">140x140</text>
+                                            </svg>
+                                            <div>
+                                                <h6>next_js <img src="images/icons/verified.png" alt="Verified"
+                                                        width="16px"> <span class="text-black-50">• 1w</span>
+                                                    <p class="text-black-50 fw-normal">Los Angeles, CA</p>
+                                                </h6>
+                                            </div>
+
+                                        </span>
+                                        <span>
+                                            <a href="http://" class="nav-link text-dark"><i
+                                                    class="fa fa-ellipsis-h"></i></a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <figure class="figure">
+                                        <img src="images/post-images/Nextsjs.png" alt="" class="figure-img img-fluid">
+                                        <figcaption class="row">
+                                            <div class="col-12 d-flex justify-content-between fa-2x fw-bold mb-2">
+                                                <span>
+                                                    <a href="#" class="text-dark"><i class="fa fa-heart-o me-2"></i></a>
+                                                    <a href="#" class="text-dark"><i
+                                                            class="fa fa-comment-o me-2"></i></a>
+                                                    <a href="#" class="text-dark"><i
+                                                            class="fa fa-paper-plane-o"></i></a>
+                                                </span>
+
+                                                <a href="#" class="text-dark"><i class="fa fa-bookmark-o"></i></a>
+                                            </div>
+                                            <div class="col-12">
+                                                <p>Liked by <strong>jayz, j.kikwete and others</strong></p>
+                                            </div>
+                                            <div class="col-12">
+                                                <p><strong>next_js <img src="images/icons/verified.png" alt="Verified"
+                                                            width="16px"></strong>
+                                                    Climate change is the
+                                                    greatest threat to
+                                                    humanity, perhaps ever. Global temperatures are rising at an
+                                                    unprecedented
+                                                    rate, causing drought and forest fires and impacting human
+                                                    health.
+                                                </p>
+                                            </div>
+                                            <div class="col-12"><a href="http://"
+                                                    class="text-decoration-none text-black-50">View all 26
+                                                    comments</a>
+                                            </div>
+                                            <div class="col-12 mt-2">
+                                                <input type="text" class="form-control border-0 shadow-none"
+                                                    name="comment" id="comment" placeholder="Add a comment...">
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mt-3">
+                    </div>
+                </div>
+            </main>
+            <div class="col-md-3 col-lg-3 d-md-block d-none ms-sm-auto px-md-4 pt-3 pb-2 mb-3">
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="d-flex justify-content-between">
+                        <span class="d-flex d-inline-block">
+                            <svg class="bd-placeholder-img rounded-circle me-3" width="50" height="50"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 50x50"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>JUX</title>
+                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                    dy=".3em">140x140</text>
+                            </svg>
+                            <div>
+                                <h6>mustgallery</h6>
+                                <h6 class="text-black-50">MBEYA UNIVERSITY GALLERY</h6>
+                            </div>
+
+                        </span>
+                        <span>
+                            <a href="http://" class="nav-link">Switch</a>
+                        </span>
+                    </li>
+                    <li class="d-flex justify-content-between py-3">
+                        <span class="text-black-50">
+                            <h6>Suggested for you</h6>
+                        </span>
+                        <span>
+                            <a href="http://" class="nav-link text-dark">See all</a>
+                        </span>
+                    </li>
+                    <li class="d-flex justify-content-between mb-2">
+                        <span class="d-flex d-inline-block">
+                            <svg class="bd-placeholder-img rounded-circle me-3" width="50" height="50"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 50x50"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>JUX</title>
+                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                    dy=".3em">140x140</text>
+                            </svg>
+                            <div>
+                                <h6>e.sscen__</h6>
+                                <h6 class="text-black-50">Follows you</h6>
+                            </div>
+
+                        </span>
+                        <span>
+                            <a href="http://" class="nav-link">Follow</a>
+                        </span>
+                    </li>
+                    <li class="d-flex justify-content-between mb-2">
+                        <span class="d-flex d-inline-block">
+                            <svg class="bd-placeholder-img rounded-circle me-3" width="50" height="50"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 50x50"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>JUX</title>
+                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                    dy=".3em">140x140</text>
+                            </svg>
+                            <div>
+                                <h6>official_alikiba</h6>
+                                <h6 class="text-black-50">Follows you</h6>
+                            </div>
+
+                        </span>
+                        <span>
+                            <a href="http://" class="nav-link">Follow</a>
+                        </span>
+                    </li>
+                    <li class="d-flex justify-content-between mb-2">
+                        <span class="d-flex d-inline-block">
+                            <svg class="bd-placeholder-img rounded-circle me-3" width="50" height="50"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 50x50"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>JUX</title>
+                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                    dy=".3em">140x140</text>
+                            </svg>
+                            <div>
+                                <h6>elon_musk</h6>
+                                <h6 class="text-black-50">Follows you</h6>
+                            </div>
+
+                        </span>
+                        <span>
+                            <a href="http://" class="nav-link">Follow</a>
+                        </span>
+                    </li>
+                    <li class="d-flex justify-content-between mb-2">
+                        <span class="d-flex d-inline-block">
+                            <svg class="bd-placeholder-img rounded-circle me-3" width="50" height="50"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 50x50"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <title>JUX</title>
+                                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
+                                    dy=".3em">140x140</text>
+                            </svg>
+                            <div>
+                                <h6>mark_zuckerberg</h6>
+                                <h6 class="text-black-50">Follows you</h6>
+                            </div>
+
+                        </span>
+                        <span>
+                            <a href="http://" class="nav-link">Follow</a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/bootstrap.bundle.js"></script>
+
+</html>
